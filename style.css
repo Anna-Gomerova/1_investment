@@ -50,10 +50,6 @@ align-items: center;
     /* margin-bottom: -130px; */
 }
 
-.container--about-us {
-
-}
-
 .logo {
     height: 100%;
     border-right: 1px solid rgba(255, 255, 255, .2);
@@ -108,6 +104,7 @@ align-items: center;
 
 .main {
     background:#00394B;
+    color: #FFFFFF;
 }
 
 .main__illustration {
@@ -116,4 +113,9 @@ align-items: center;
 
 .about-us {
     margin-top: 142px;
+}
+
+.strategies {
+    background:#00394B;
+    color: #FFFFFF;
 }
