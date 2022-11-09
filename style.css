@@ -54,7 +54,7 @@ body {
     justify-content: space-between;
     padding-top: 42px;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .logo {
@@ -121,6 +121,7 @@ body {
 
 .main__wrapper {
     width: 409px;
+    align-self: flex-end;
 }
 
 .main__title {
@@ -152,6 +153,7 @@ body {
     gap: 16px;
 
     margin-top: 80px;
+    margin-bottom: 78px;
 }
 
 .main__link-img {
