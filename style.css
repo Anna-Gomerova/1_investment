@@ -425,6 +425,16 @@ body {
     flex: 1 0;
     padding: 40px 44px;
     background-color: #022733;
+    position: relative;
+}
+
+.comparison__item::before {
+    content: "";
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 60px;
 }
 
 .comparison__heading {
