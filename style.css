@@ -276,6 +276,8 @@ body {
     font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
+    max-width: 668px;
+    /* Змінила задля перенесення тексту на нову строку (у макеті 768px) */
 }
 
 .title__heading {
@@ -368,8 +370,6 @@ body {
 }
 
 .title--strategies {
-    max-width: 568px;
-    /* Змінила задля перенесення тексту на нову строку (у макеті 768px) */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -445,7 +445,7 @@ body {
     margin-bottom: 40px;
 }
 
-.comparison__point {
+.comparison__point:not(:last-child) {
     margin-bottom: 44px;
 }
 
@@ -473,4 +473,63 @@ body {
     /* identical to box height, or 127% */
 
     margin-bottom: 8px;
+}
+
+.stages {
+    padding: 120px 0px;
+}
+
+.stages__title {
+    align-self: flex-start;
+    margin-left: 100px;
+    margin-bottom: 80px;
+
+}
+
+.stages__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.point__number--colored {
+    background-color: #FF4300;
+    padding: 5px 15px;
+    color: #FFFFFF;
+
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+}
+
+.point__number--first {
+    padding: 5px 17px;
+}
+
+.point--colored {
+    max-width: 434px;
+    margin-bottom: 80px;
+    flex: 50% 0;
+    gap: 32px;
+
+}
+
+.point__heading--colored {
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height, or 114% */
+
+    color: #00274B;
+
+    margin-bottom: 16px;
+}
+
+.point__text--colored   {
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    color: #00274B;
+
 }
